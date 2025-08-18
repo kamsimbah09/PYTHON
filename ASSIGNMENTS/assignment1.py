@@ -12,6 +12,8 @@ num2 = int(input("Enter your second number:"))
 sum_result = num1 + num2
 print(f"This is the sum of the two numbers: {sum_result}")
 
+
+#test comment
 # Subtraction
 sub_result = num1 - num2
 print(f"This is the subtraction of the two numbers: {sub_result}")
@@ -28,19 +30,19 @@ print(f"This is the division of the two numbers: {div_result}")
 print("Which arithmetic operation do u want to run? addition, subtarction,multiplication,division")
 operation =input()
 
-if operation == "addition":
+if operation.lower() == "addition":
     sum_result = num1 + num2
     print(f"This is the sum of the two numbers: {sum_result}")
 else:
-    if operation == "subtraction":
+    if operation.lower() == "subtraction":
        sub_result = num1 - num2
        print(f"This is the subtraction of the two numbers: {sub_result}")
     else:
-        if operation == "multiplication":
+        if operation.lower() == "multiplication":
           mul_result = num1 * num2
           print(f"This is the multiplication of the two numbers: {mul_result}")
         else:
-           if operation == "division":
+           if operation.lower() == "division":
               if num2 != 0:
                  div_result = num1 / num2
                  print(f"This is the division of the two numbers: {div_result}") 
