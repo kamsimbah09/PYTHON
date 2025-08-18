@@ -13,7 +13,7 @@ sum_result = num1 + num2
 print(f"This is the sum of the two numbers: {sum_result}")
 
 
-#test comment
+
 # Subtraction
 sub_result = num1 - num2
 print(f"This is the subtraction of the two numbers: {sub_result}")
