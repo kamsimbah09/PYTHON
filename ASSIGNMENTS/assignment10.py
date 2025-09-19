@@ -7,3 +7,4 @@ if(num >= 18):
     print("you can enter")
 else:
     print("ur too young")
+    
